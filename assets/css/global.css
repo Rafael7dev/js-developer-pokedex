@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://pbs.twimg.com/media/FMdxWLeVIAMyAXj?format=jpg&name=large) center;
+  background-size: border-box;
+  /* background-color: #f6f8fc; */
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #e2d3d363;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  font-weight: 700px;
+  width: 100%;
+  flex-shrink: 0;
+  padding: 12px;
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, .6);
+  color: rgb(255, 255, 255)
+}
+
